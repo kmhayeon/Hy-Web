@@ -147,14 +147,19 @@ const WorkEx = () => {
         <div className={`pb-8 text-[20px] font-bold`}>Work Experience</div>
         <ol className="dark:border-gray-700 dark:text-gray-400 relative m-4 ">
           <li className="dark:after:bg-neutral-600 mb-10 ml-6 h-fit after:absolute after:left-[-0.02rem] after:top-[1rem] after:mt-px after:h-[67%] after:w-px after:bg-[#e0e0e0] ">
-            {items.map(item => {
+            {items.map((item) => {
               return (
                 <div className="mb-20 grid gap-0 sm:grid-cols-2" key={item.id}>
                   <div>
                     <span className="absolute -left-1 z-10 mr-3 ml-0 mt-0 flex h-2 w-2 items-center justify-center rounded-full bg-white ring-4 ring-yellow-300"></span>
                     <div className={`relative top-[-7px]`}>
-                      <h3 className="text-[18px] font-semibold leading-tight">{item.title}</h3>
-                      <p className="pt-3 pb-3 text-sm font-semibold" dangerouslySetInnerHTML={{ __html: `${item.date}` }} />
+                      <h3 className="text-[18px] font-semibold leading-tight">
+                        {item.title}
+                      </h3>
+                      <p
+                        className="pt-3 pb-3 text-sm font-semibold"
+                        dangerouslySetInnerHTML={{ __html: `${item.date}` }}
+                      />
                     </div>
                   </div>
                   <div className={`relative top-[-7px]`}>
@@ -163,8 +168,14 @@ const WorkEx = () => {
                         item.content.map((sub: any, i: any) => {
                           return (
                             <div key={i} className={`w-full pb-10`}>
-                              <div className={`text-[18px] font-semibold`}>{sub.job}</div>
-                              <div className={`pt-0.5 pb-5 text-[13px] font-semibold`}>{sub.jobTitle}</div>
+                              <div className={`text-[18px] font-semibold`}>
+                                {sub.job}
+                              </div>
+                              <div
+                                className={`pt-0.5 pb-5 text-[13px] font-semibold`}
+                              >
+                                {sub.jobTitle}
+                              </div>
                               <div className={`text-[14px]`}>
                                 {sub.jobContents.map((d: any, idx: any) => {
                                   return (

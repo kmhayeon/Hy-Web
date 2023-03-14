@@ -14,17 +14,29 @@ const Portflio = () => {
         <div className={`pb-8 text-[20px] font-bold`}>Portflio</div>
         <div className="mb-4 grid gap-4 sm:grid-cols-2">
           <div>
-            <a href="https://drive.google.com/file/d/12H8ONTRvwKPPzq8CTwDWfOpyUZTOaA0z/view?usp=sharing" target="_blank" className="work-container">
+            <a
+              href="https://drive.google.com/file/d/12H8ONTRvwKPPzq8CTwDWfOpyUZTOaA0z/view?usp=sharing"
+              target="_blank"
+              className="work-container"
+            >
               <img className={`m-auto h-fit w-full rounded`} src={workImg} />
             </a>
           </div>
           <div>
-            <a href="https://drive.google.com/file/d/1OArp7tiz1N_x1d8YdTPf40sJFiCB9dWq/view?usp=sharing" target="_blank" className="work-container">
+            <a
+              href="https://drive.google.com/file/d/1OArp7tiz1N_x1d8YdTPf40sJFiCB9dWq/view?usp=sharing"
+              target="_blank"
+              className="work-container"
+            >
               <img className={`m-auto h-fit w-full rounded`} src={workImg_01} />
             </a>
           </div>
           <div>
-            <a href="https://drive.google.com/file/d/1O8qdLtRjSNMi0YgWMWJQTZoU8Y6q_h9n/view?usp=sharing" target="_blank" className="work-container">
+            <a
+              href="https://drive.google.com/file/d/1O8qdLtRjSNMi0YgWMWJQTZoU8Y6q_h9n/view?usp=sharing"
+              target="_blank"
+              className="work-container"
+            >
               <img className={`m-auto h-fit w-full rounded`} src={workImg_06} />
             </a>
           </div>
