@@ -1,16 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import profileImg from "../assets/img/1-2.png";
-import Lottie from "react-lottie";
-import LottieData from "../assets/img/133076-welcome.json";
+
 const MainApp = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: LottieData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
   const onSendEmailClick = () => {
     window.open("mailto:kmhayeon12@gmail.com", "_blank");
   };
@@ -19,7 +10,7 @@ const MainApp = () => {
     <div className={`w-full pb-40`}>
       <div className={`grid place-items-center`}>
         <div className={`p-2 text-center`}>
-          <img className={`m-auto w-6/12 pt-36`} src={profileImg} />
+          <img className={`m-auto w-6/12 pt-36`} src={profileImg} alt={'profile'} />
           <h1 className={`pt-12 text-[35px] font-semibold`}>Hi, I’m Hayeon.</h1>
           <h1 className={`font-200 pt-2 text-[20px]`}>FrontEnd Developer</h1>
           <hr className={`m-auto mt-6 h-[1px] w-20 border-0 bg-slate-600`} />

@@ -1,12 +1,5 @@
 import React from "react";
 
-interface itemsType {
-  id: number;
-  date: string;
-  title: string;
-  content: Array<object>;
-}
-
 const WorkEx = () => {
   const jobDate = `2022.12 ~ <span style='color: #ff7966'>재직중</span>`;
   const items: Array<any> = [
