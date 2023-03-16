@@ -38,9 +38,9 @@ const Portflio = () => {
       <div className="mb-4 grid gap-4 sm:grid-cols-2">
         {workItems.map((v, i) => {
           return (
-            <div key={i} className="group cursor-pointer overflow-hidden rounded-xl">
+            <div key={i} className="w-full h-full group cursor-pointer overflow-hidden rounded-xl">
               <a rel="noopener noreferrer" href={v.workUrl} target="_blank" className="work-container">
-                <img className={`m-auto h-fit w-fit rounded object-cover  transition duration-300 ease-in-out group-hover:scale-110`} src={`${v.imgUrl}`} alt={v.alt} />
+                <img className={`m-auto w-full h-full rounded  transition duration-300 ease-in-out group-hover:scale-110`} src={`${v.imgUrl}`} alt={v.alt} />
               </a>
             </div>
           );
