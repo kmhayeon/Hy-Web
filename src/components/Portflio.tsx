@@ -35,14 +35,12 @@ const Portflio = () => {
   return (
     <div className={`lg: sm: m-auto max-w-[960px] px-10 px-10`}>
       <div className={`pb-8 text-[20px] font-bold`}>Portflio</div>
-      <div className='mb-4 grid gap-4 sm:grid-cols-2'>
+      <div className="mb-4 grid gap-4 sm:grid-cols-2">
         {workItems.map((v, i) => {
           return (
-            <div key={i} className='group cursor-pointer overflow-hidden rounded-xl'>
-              <a rel='noopener noreferrer' href={v.workUrl} target='_blank' className='work-container'>
-                <img
-                  className={`m-auto h-fit w-full rounded object-cover  transition duration-300 ease-in-out group-hover:scale-110`}
-                  src={`${v.imgUrl}`} alt={v.alt} />
+            <div key={i} className="group cursor-pointer overflow-hidden rounded-xl">
+              <a rel="noopener noreferrer" href={v.workUrl} target="_blank" className="work-container">
+                <img className={`m-auto h-fit w-full rounded object-cover  transition duration-300 ease-in-out group-hover:scale-110`} src={`${v.imgUrl}`} alt={v.alt} />
               </a>
             </div>
           );
