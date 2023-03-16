@@ -40,7 +40,7 @@ const Portflio = () => {
           return (
             <div key={i} className="group cursor-pointer overflow-hidden rounded-xl">
               <a rel="noopener noreferrer" href={v.workUrl} target="_blank" className="work-container">
-                <img className={`m-auto h-fit w-full rounded object-cover  transition duration-300 ease-in-out group-hover:scale-110`} src={`${v.imgUrl}`} alt={v.alt} />
+                <img className={`m-auto h-fit w-fit rounded object-cover  transition duration-300 ease-in-out group-hover:scale-110`} src={`${v.imgUrl}`} alt={v.alt} />
               </a>
             </div>
           );
