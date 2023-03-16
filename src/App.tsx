@@ -1,11 +1,11 @@
-import React from "react";
-import MainHome from "./components/MainHome";
-import Detail from "./components/Detail";
-import WorkEx from "./components/WorkEx";
-import Education from "./components/Education";
-import Portflio from "./components/Portflio";
-import Specialty from "./components/Specialty";
-import Footer from "./components/Footer";
+import React from 'react';
+import MainHome from './components/MainHome';
+import Detail from './components/Detail';
+import WorkEx from './components/WorkEx';
+import Education from './components/Education';
+import Portflio from './components/Portflio';
+import Specialty from './components/Specialty';
+import Footer from './components/Footer';
 
 function App() {
   return (

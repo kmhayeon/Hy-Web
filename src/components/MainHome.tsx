@@ -1,9 +1,9 @@
-import React from "react";
-import profileImg from "../assets/img/1-2.png";
+import React from 'react';
+import profileImg from '../assets/img/1-2.png';
 
 const MainApp = () => {
   const onSendEmailClick = () => {
-    window.open("mailto:kmhayeon12@gmail.com", "_blank");
+    window.open('mailto:kmhayeon12@gmail.com', '_blank');
   };
 
   return (
@@ -14,10 +14,7 @@ const MainApp = () => {
           <h1 className={`pt-12 text-[35px] font-semibold`}>Hi, I’m Hayeon.</h1>
           <h1 className={`font-200 pt-2 text-[20px]`}>FrontEnd Developer</h1>
           <hr className={`m-auto mt-6 h-[1px] w-20 border-0 bg-slate-600`} />
-          <div
-            className={`cursor-pointer cursor-pointer pt-6 text-[16px] font-light hover:text-yellow-400`}
-            onClick={() => onSendEmailClick()}
-          >
+          <div className={`cursor-pointer cursor-pointer pt-6 text-[16px] font-light hover:text-yellow-400`} onClick={() => onSendEmailClick()}>
             kmhayeon@naver.com
           </div>
         </div>

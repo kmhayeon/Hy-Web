@@ -1,17 +1,17 @@
 /**
  * Tailwind의 기본 스타일과 플러그인에 의해 등록된 모든 기본 스타일을 주입한다.
  */
-@import "tailwindcss/base";
+@import 'tailwindcss/base';
 
 /**
  * Tailwind의 컴포넌트 클래스와 플러그인에 의해 등록된 모든 컴포넌트 클래스를 주입한다.
  */
-@import "tailwindcss/components";
+@import 'tailwindcss/components';
 
 /**
  * Tailwind의 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입한다.
  */
-@import "tailwindcss/utilities";
+@import 'tailwindcss/utilities';
 
 /**
  * 이 directive를 사용하여 Tailwind가 각 클래스의 호버, 포커스, 응답, 다크 모드 및 기타 변형을 주입하는 위치를 제어합니다.

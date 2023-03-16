@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Specialty = () => {
   const items: Array<any> = [
@@ -59,9 +59,7 @@ const Specialty = () => {
                         })}
                     </>
                   </div>
-                  <div
-                    className={`flex w-[300px] pt-3 text-[14px] font-medium`}
-                  >
+                  <div className={`flex w-[300px] pt-3 text-[14px] font-medium`}>
                     {items &&
                       items.map((item, index) => {
                         return (
@@ -105,9 +103,7 @@ const Specialty = () => {
                         );
                       })}
                   </div>
-                  <div
-                    className={`flex w-[300px] pt-3 text-[14px] font-medium`}
-                  >
+                  <div className={`flex w-[300px] pt-3 text-[14px] font-medium`}>
                     {items &&
                       items.map((item, index) => {
                         return (
@@ -124,9 +120,7 @@ const Specialty = () => {
                         );
                       })}
                   </div>
-                  <div
-                    className={`flex w-[300px] pt-3 text-[14px] font-medium`}
-                  >
+                  <div className={`flex w-[300px] pt-3 text-[14px] font-medium`}>
                     {items &&
                       items.map((item, index) => {
                         return (
