@@ -3,12 +3,6 @@
  */
 @import 'tailwindcss/base';
 
-/*아래 폰트*/
-@font-face {
-  font-family: "NanumSquareRound";
-  src: url("/src/assets/font/NaverNanumSquareRound/NanumFontSetup_TTF_SQUARE_ROUND/NanumSquareRoundR.ttf") ;
-}
-
 /**
  * Tailwind의 컴포넌트 클래스와 플러그인에 의해 등록된 모든 컴포넌트 클래스를 주입한다.
  */
