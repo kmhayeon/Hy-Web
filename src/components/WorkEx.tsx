@@ -11,7 +11,7 @@ const WorkEx = () => {
         {
           id: 0,
           job: '자사 홈페이지 개발',
-          jobTitle: `개발환경: Typescript / React / Next.js`,
+          jobTitle: `개발환경: Typescript / React / Next.js / Styled Components`,
           jobContents: [
             {
               id: 0,
@@ -22,7 +22,7 @@ const WorkEx = () => {
         {
           id: 1,
           job: 'Finut 웹뷰 개발',
-          jobTitle: `개발환경: Typescript / React / Next.js / Tanstack Query`,
+          jobTitle: `개발환경: Typescript / React / Next.js / Styled Components / Tanstack Query`,
           jobContents: [
             {
               id: 0,
@@ -30,21 +30,21 @@ const WorkEx = () => {
             },
           ],
         },
-        {
-          id: 2,
-          job: 'Finut 웹 어드민 개발',
-          jobTitle: `개발환경: Typescript / React / Next.js / Recoil / Tanstack Query`,
-          jobContents: [
-            {
-              id: 1,
-              tit: `- Finut 웹사이트 개발/운영/배포`,
-            },
-            {
-              id: 0,
-              tit: `- Finut 웹 어드민 기능 개발/운영/배포`,
-            },
-          ],
-        },
+        // {
+        //   id: 2,
+        //   job: 'Finut 웹 어드민 개발',
+        //   jobTitle: `개발환경: Typescript / React / Styled Components / Recoil / Tanstack Query`,
+        //   jobContents: [
+        //     {
+        //       id: 1,
+        //       tit: `- Finut 웹사이트 개발/운영/배포`,
+        //     },
+        //     {
+        //       id: 0,
+        //       tit: `- Finut 웹 어드민 기능 개발/운영/배포`,
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -139,7 +139,7 @@ const WorkEx = () => {
       <div className={`lg: sm: m-auto max-w-[960px] px-14 px-14`}>
         <div className={`pb-8 text-[20px] font-bold`}>Work Experience</div>
         <ol className="dark:border-gray-700 dark:text-gray-400 relative m-4 ">
-          <li className="dark:after:bg-neutral-600 mb-10 ml-6 h-fit after:absolute after:left-[-0.02rem] after:top-[1rem] after:mt-px after:h-[67%] after:w-px after:bg-[#e0e0e0] ">
+          <li className="dark:after:bg-neutral-600 mb-10 ml-6 h-fit after:absolute after:left-[-0.02rem] after:top-[1rem] after:mt-px after:h-[65%] after:w-px after:bg-[#e0e0e0] ">
             {items.map(item => {
               return (
                 <div className="mb-20 grid gap-0 sm:grid-cols-2" key={item.id}>
