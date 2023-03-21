@@ -3,6 +3,7 @@ import workImg from '../assets/img/work/01.png';
 import workImg_01 from '../assets/img/work/02.png';
 import workImg_03 from '../assets/img/work/03.png';
 import workImg_06 from '../assets/img/work/06.png';
+import workImg_07 from '../assets/img/work/07.png';
 
 const Portflio = () => {
   const workItems: Array<any> = [
@@ -26,8 +27,8 @@ const Portflio = () => {
     },
     {
       id: 3,
-      workUrl: 'https://drive.google.com/file/d/1O8qdLtRjSNMi0YgWMWJQTZoU8Y6q_h9n/view?usp=sharing',
-      imgUrl: workImg_03,
+      workUrl: 'https://drive.google.com/file/d/1CkhnQnUpASg42OkbAh6y9vrqYV_Zkgtm/view?usp=share_link',
+      imgUrl: workImg_07,
       alt: 'work04',
     },
   ];
