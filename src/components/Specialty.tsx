@@ -24,9 +24,10 @@ const Specialty = () => {
       ],
       data: [
         { id: 0, skill: `Recoil` },
-        { id: 1, skill: `GraphQL` },
-        { id: 2, skill: `Tanstack Query` },
-      ],
+        { id: 1, skill: `Context API` },
+        { id: 0, skill: `GraphQL` },
+        { id: 1, skill: `Tanstack Query` },
+      ]
     },
   ];
 
@@ -120,7 +121,7 @@ const Specialty = () => {
                         );
                       })}
                   </div>
-                  <div className={`flex w-[300px] pt-3 text-[14px] font-medium`}>
+                  <div className={`flex w-[400px] pt-3 text-[14px] font-medium`}>
                     {items &&
                       items.map((item, index) => {
                         return (
