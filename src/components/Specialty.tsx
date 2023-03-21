@@ -24,7 +24,6 @@ const Specialty = () => {
       ],
       data: [
         { id: 0, skill: `Recoil` },
-        { id: 1, skill: `Context API` },
         { id: 0, skill: `GraphQL` },
         { id: 1, skill: `Tanstack Query` },
       ]
