@@ -139,7 +139,7 @@ const WorkEx = () => {
       <div className={`lg: sm: m-auto max-w-[960px] px-14 px-14`}>
         <div className={`pb-8 text-[20px] font-bold`}>Work Experience</div>
         <ol className="dark:border-gray-700 dark:text-gray-400 relative m-4 ">
-          <li className="dark:after:bg-neutral-600 mb-10 ml-6 h-fit after:absolute after:left-[-0.02rem] after:top-[1rem] after:mt-px after:h-[65%] after:w-px after:bg-[#e0e0e0] ">
+          <li className="dark:after:bg-neutral-600 mb-10 ml-6 h-fit after:absolute after:left-[-0.02rem] after:top-[1rem] after:mt-px after:h-[62%] sm:after:h-[65%] after:w-px after:bg-[#e0e0e0] ">
             {items.map(item => {
               return (
                 <div className="mb-20 grid gap-0 sm:grid-cols-2" key={item.id}>
