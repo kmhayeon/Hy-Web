@@ -23,7 +23,7 @@ const Specialty = () => {
         { id: 1, skill: `TailwindCss` },
       ],
       data: [
-        { id: 0, skill: `Recoil` },
+        { id: 0, skill: `Context API` },
         { id: 0, skill: `GraphQL` },
         { id: 1, skill: `Tanstack Query` },
       ]

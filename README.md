@@ -6,7 +6,7 @@
 
 ### 결과물
 
-[github Link](https://github.com/kmhayeon/triple-task.git)
+[github Link](https://github.com/kmhayeon/Hy-Web)
 
 ### 실행 방법
 
