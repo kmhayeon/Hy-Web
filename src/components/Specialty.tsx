@@ -120,7 +120,7 @@ const Specialty = () => {
                         );
                       })}
                   </div>
-                  <div className={`flex w-[300px] pt-3 text-[14px] font-medium`}>
+                  <div className={`flex w-[325px] pt-3 text-[14px] font-medium`}>
                     {items &&
                       items.map((item, index) => {
                         return (
