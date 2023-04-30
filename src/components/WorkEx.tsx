@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WorkEx = () => {
-  const jobDate = `2022.12 ~ <span style='color: #ff7966'>재직중</span>`;
+  const jobDate = `2022.12 ~ 2023.04`;
   const items: Array<any> = [
     {
       id: 0,
